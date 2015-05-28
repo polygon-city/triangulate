@@ -1,0 +1,31 @@
+{
+  "name": "triangulate",
+  "version": "0.1.0",
+  "description": "Triangulate a 3D polygon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polygon-city/triangulate"
+  },
+  "keywords": [
+    "geometry",
+    "polygon",
+    "2d",
+    "triangulation",
+    "face"
+  ],
+  "author": "Robin Hawkes <rob@vizicities.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/polygon-city/triangulate/issues"
+  },
+  "homepage": "https://github.com/polygon-city/triangulate",
+  "dependencies": {
+    "lodash": "^3.9.3",
+    "points-3d-to-2d": "^0.1.0",
+    "poly2tri": "^1.3.5"
+  }
+}
