@@ -2,8 +2,6 @@ var _ = require("lodash");
 var poly2tri = require("poly2tri");
 var points3dto2d = require("points-3d-to-2d");
 
-module.exports = triangulate;
-
 // TODO: Support holes
 // https://github.com/r3mi/poly2tri.js#usage
 
@@ -62,3 +60,5 @@ var triangulate = function(points) {
 
   return faces;
 };
+
+module.exports = triangulate;
