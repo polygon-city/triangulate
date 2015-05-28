@@ -1,6 +1,6 @@
 {
   "name": "triangulate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Triangulate a 3D polygon",
   "main": "index.js",
   "scripts": {
