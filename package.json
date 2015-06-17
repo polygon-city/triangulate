@@ -1,6 +1,6 @@
 {
   "name": "triangulate",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Triangulate a 3D polygon",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,6 @@
   "dependencies": {
     "libtess": "^1.2.0",
     "lodash": "^3.9.3",
-    "points-3d-to-2d": "^0.1.1"
+    "points-3d-to-2d": "^0.1.2"
   }
 }
